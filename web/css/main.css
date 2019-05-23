@@ -1,0 +1,44 @@
+body{
+    font-size: 18px;
+    background-color: #EEEEEE;
+}
+
+h4{
+    text-align: center;
+    margin: 0.1em 0.3em 0.3em;
+}
+
+p{
+    margin: 3px;
+}
+
+input{
+    border: thin inset #00000044;
+    font-size: 16px;
+    padding: 3px;
+    display: block;
+}
+
+.main{
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border: thin inset #00000044;
+    padding: 25px;
+}
+
+.button{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.button:hover{
+    border: thin inset orangered;
+}
+
+p.error{
+    color: darkred;
+    font-size: 14px
+}
